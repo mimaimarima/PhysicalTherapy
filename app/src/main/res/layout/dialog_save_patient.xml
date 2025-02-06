@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/patientEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:fontFamily="sans-serif"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/patientPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:fontFamily="sans-serif"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/patientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:id="@+id/patientAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:fontFamily="sans-serif"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/patientBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="BMI"
+        android:fontFamily="sans-serif"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/patientDiagnosis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:hint="Diagnosis" />
+</LinearLayout>

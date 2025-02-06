@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/quote"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="The question isn't who is going to let me; it's who is going to stop me."
+        android:textAlignment="center"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_margin="10dp"/>
+
+    <com.applandeo.materialcalendarview.CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="324dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        app:headerColor="#659798"
+        app:todayLabelColor="#E91E63" />
+
+    <TextView
+        android:id="@+id/day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Exercise plan for" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/exercisesRV"
+        android:layout_width="match_parent"
+        android:layout_height="240dp" />
+
+    <Button
+        android:id="@+id/pmB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#659798"
+        android:fontFamily="sans-serif"
+        android:text="Update mood and pain levels"
+        />
+
+</LinearLayout>
+
+
+

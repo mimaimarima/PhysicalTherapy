@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1093783735156",
+    "project_id": "physther-b19d2",
+    "storage_bucket": "physther-b19d2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093783735156:android:46cd88eee93f2c1900fa21",
+        "android_client_info": {
+          "package_name": "com.example.physical_therapy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHegqHzTdXvTGaHathyYCAP9HlJ9NC8aE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
