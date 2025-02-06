@@ -2,7 +2,7 @@
 
 Андроид апликација за физиотерапевти и нивни пациенти - Android app for physiotherapists and their patients
 
-## Преглед
+## Преглед - App Screens
 ![1](https://github.com/user-attachments/assets/b70a16fc-984f-463c-b0f9-d102d2cc4fcb)
 ![2](https://github.com/user-attachments/assets/314542a2-f482-486b-a724-df80b923b9a2)
 ![3](https://github.com/user-attachments/assets/8a7552ac-c084-42e3-81a8-947449c3d136)
