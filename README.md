@@ -30,8 +30,11 @@ After a patient logs in, an activity with a calendar day-by-day overview of the 
 ## Technologies Used
 
 Programming Language: Java
+
 Database: Firebase
+
 UI Components: Firebase RecyclerView, Dialogs, MaterialCalendar and DateRangePicker
+
 IDE: Android Studio
 
 ### Installation
